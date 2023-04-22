@@ -1,0 +1,66 @@
+#firstPage,
+#lastPage {
+
+	.infoBox {
+		width: 80%;
+		background-color: #E5E5E1;
+		border-left: $red 0.4em solid;
+		margin: 0.4em 2em 2em;
+
+		.infoContent {
+			display: flex;
+			flex-direction: row;
+			padding-top: 0.7em;
+
+			.infoText {
+				font-family: 'Open Sans';
+				font-style: italic;
+				font-weight: 400;
+				font-size: small;
+			}
+
+			& img.lumberjack-img {
+				justify-self: start;
+				width: auto;
+				height: 10em;
+			}
+
+			img.lady-img {
+				// position: relative;
+				// right: 0;
+				// bottom: -3.8em;
+				// float: right;
+
+				align-self: end;
+				width: auto;
+				height: 10em;
+				margin-bottom: -0.7em;
+			}
+
+			// @media screen() {}
+
+		}
+
+	}
+
+}
+
+#firstPage {
+
+	& .infoContent {
+		padding-left: 0.6em;
+
+	}
+}
+
+#lastPage {
+	& .infoContent {
+
+		display: flex;
+		flex-direction: row;
+		padding-top: 0.7em;
+		padding-right: 0.6em;
+	}
+
+
+}

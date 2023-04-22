@@ -1,0 +1,16 @@
+.purpleBtn {
+	background-color: $purple;
+	width: 80%;
+	font-weight: 600;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 35px;
+	margin-top: 1em;
+
+	img.btnText {
+		padding: 0.7em;
+		border: none;
+		height: 1.5em;
+	}
+}

@@ -1,0 +1,24 @@
+form {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	display: flex;
+	flex-direction: column;
+	width: 80vw;
+	font-size: 0.8em;
+	margin-bottom: 1em;
+
+	label[for=comments] {
+		margin-top: 1em;
+	}
+
+	textarea {
+		// border: 2px solid black;
+		text-align: left;
+		height: 6em;
+
+		&#riktmärken {
+			height: 5em;
+		}
+	}
+
+}

@@ -1,0 +1,61 @@
+@import '../../variables';
+
+#firstPage,
+#localisation,
+#fill-info,
+#kontaktuppgifter,
+#lastPage {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	img.hero-img {
+		width: 100%;
+		border-top: 1px solid black;
+		border-bottom: 1px solid black;
+
+	}
+
+	.firstPageText {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin: 0 3em;
+
+		h1 {
+			font-size: 2em;
+			font-weight: 700;
+			margin: 1.7em 0 0.4em;
+			text-align: center;
+		}
+
+		p {
+			font-family: 'Open Sans';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 0.95em;
+		}
+
+	}
+
+	#startBtn {
+		background-color: $red;
+	}
+
+	.nextBtn {
+		margin: 1.2em 2em;
+		font-weight: 600;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 35px;
+		width: 80%;
+
+		.btnText {
+			padding: 0.7em;
+			color: white;
+		}
+	}
+
+
+}

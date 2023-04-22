@@ -1,0 +1,29 @@
+nav {
+	padding: 0.4em 0.8em 0;
+}
+
+nav,
+.search-n-menu {
+	font-weight: 300;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	.MSB-header-logo {
+		height: 2.8em;
+	}
+
+
+	.search-n-menu {
+		gap: 1.2em;
+
+		.search,
+		.menu {
+			display: flex;
+			align-items: center;
+			gap: 0.3em;
+
+		}
+	}
+
+}

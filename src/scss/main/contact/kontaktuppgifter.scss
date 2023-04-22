@@ -1,0 +1,14 @@
+#kontaktuppgifter {
+	& label {
+		margin-top: 0.4em;
+	}
+
+	& label:first-of-type {
+		margin-top: 0;
+	}
+
+	img.grafic-trees {
+		width: 50vw;
+		margin: 1em 0;
+	}
+}

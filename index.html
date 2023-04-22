@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MSB orosanmälan fallande</title>
+
+	<!-- Google fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,400;1,600&family=Poppins:wght@300;600;700&display=swap" rel="stylesheet">
+	<!-- Font Awesome -->
+	<script src="https://kit.fontawesome.com/44fc62139d.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+	<header>
+		<nav class="contain">
+			<a href="#"><img src="./src/assets/msb_rgb_150ppi.png" alt="MSBs logotyp" class="MSB-header-logo"></a>
+			<div class="search-n-menu">
+				<div class="search">
+					<i class="fa-solid fa-magnifying-glass"></i>
+					<p>SÖK</p>
+				</div>
+				<div id="menu" class="menu">
+						<i class="fa-solid fa-bars"></i>
+						<p>Meny</p>
+				</div>
+			</div>
+		</nav>
+		<div class="orientation-bar">
+			<div class="text contain">
+				<p>DU ÄR HÄR:</p>
+				<i class="fa-solid fa-chevron-right"></i>
+				<i class="fa-solid fa-house-chimney"></i>
+				<i class="fa-solid fa-chevron-right"></i>
+				<p><a href="#">VERKTYG & TJÄNSTER</a></p>
+				<i class="fa-solid fa-chevron-right"></i>
+				<p><a href="#">OROSANMÄLAN OM FALLRISK FÖR TRÄD</a></p>
+			</div>
+		</div>
+	</header>
+	<main>
+		<section id="firstPage">
+			<img class="hero-img" src="./src/assets/person-fallen-tree.jpg" alt="Person looking at a halfway fallen pine tree in a forest">
+			<div class="firstPageText contain">
+				<h1>Risk för fallande träd</h1>
+				<p>Träd eller stora grenar som riskerar att falla är farliga för allmänheten på grund av risken för personskador och materiella skador. Med hjälp av allmänhetens tips kan vi identifiera och ta bort riskträd så snart som möjligt för att minimera risken för olyckor. Har du sett ett träd eller en stor gren med risk att falla och orsaka skador på människor, byggnader, fordon eller annan egendom?<br>Gör då en orosanmälan här i våran e-tjänst.</p>
+			</div>
+			<div id="startBtn" class="nextBtn contain"><a href="#" class="btnText">Fyll i orosanmälan</a></div>
+
+			<div class="infoBox">
+				<div class="infoContent">
+					<div class="infoText">
+						<p>
+							Vi hade ett stort träd ute på gatan som riskerade att falla över våra bilar och trottoaren efter senaste stormen. Vi gjorde enkelt en orosanmälan i MSB:s e-tjänst, sen kom de och tog ner trädet.<br>
+						</p>
+						<p>Inger Hedén, Hedemora</p>
+					</div>
+					<img src="./src/assets/lady.png" alt="En bild på en kvinna i övre medelåldern som håller i en telefon" class="lady-img">
+				</div>
+			</div>
+		</section>
+
+		<section id="localisation">
+			<img class="hero-img" src="./src/assets/map.jpg" alt="Närbild på händer som håller i en karta">
+			<div class="firstPageText contain">
+				<h1>Lokalisering</h1>
+				<p>För att kunna riskbedöma och åtgärda trädet du rapporterar om så behöver vi veta var det finns. Med hjälp av fingrarna kan du dra runt kartan och zooma in och ut. Försök att zooma in så mycket du kan så att det blir lättare för oss att lokalisera trädet på plats.
+					Var vänlig att placera cirkeln på det område där du sett trädet. </p>
+			</div>
+			<div class="formWrap">
+				<h2>Ange närmaste adress</h2>
+				<form action="input">
+					<input type="text" placeholder="T ex. Rävgatan 4">
+				</form>
+				<div class="map-img">
+					<img src="/src/assets/red-circle.png" alt="A red circle for pointing out localisation on the map" class="red-circle">
+				</div>
+			</div>
+			<div id="locationFinishedBtn" class="purpleBtn contain">
+				<img src="/src/assets/arrow.png" alt="arrow to next page" class="btnText">
+			</div>
+		</section>
+
+		<section id="fill-info">
+			<img src="/src/assets/MSBs-linjer.png" alt="MSBs linjer som grafiska element" class="MSBs-linjer">
+			<div class="firstPageText contain">
+				<h1>Fyll i mer information</h1>
+			</div>
+
+			<form action="input">
+				<label for="riktmärken">Ange eventuella riktmärken för att enklare hitta trädet:</label>
+				<textarea id="riktmärken" name="riktmärken">
+				</textarea>
+
+				<label for="comments">Övriga kommentarer:</label>
+				<textarea id="comments" name="comments">
+				</textarea>
+			</form>
+
+			<img src="/src/assets/fallen-tree.jpg" alt="Ett träd som fallit över en väg, i bakgrunden syns en dramatisk himmel med mörka moln" class="fallen-tree">
+
+			<div id="fillInfoFinishedBtn" class="purpleBtn contain">
+				<img src="/src/assets/arrow.png" alt="arrow to next page" class="btnText">
+			</div>
+		</section>
+
+		<section id="kontaktuppgifter">
+			<img src="/src/assets/MSBs-linjer.png" alt="MSBs linjer som grafiska element" class="MSBs-linjer">
+			<div class="firstPageText contain">
+				<h1>Dina kontaktuppgifter</h1>
+			</div>
+
+			<form action="input">
+				<label for="Förnamn">Förnamn:</label>
+				<input id="Förnamn" name="Förnamn">
+				</input>
+
+				<label for="Efternamn">Efternamn:</label>
+				<input id="Efternamn" name="Efternamn">
+				</input>
+
+				<label for="Mailadress">Mailadress:</label>
+				<input id="Mailadress" name="Mailadress">
+				</input>
+
+				<label for="Adress">Adress:</label>
+				<input id="Adress" name="Adress">
+				</input>
+
+				<label for="Postadress">Postadress:</label>
+				<input id="Postadress" name="Postadress">
+				</input>
+
+				<label for="Ort">Ort:</label>
+				<input id="Ort" name="Ort">
+				</input>
+
+				<label for="Telefonnummer">Telefonnummer:</label>
+				<input id="Telefonnummer" name="Telefonnummer">
+				</input>
+			</form>
+
+			<img class="grafic-trees" src="/src/assets/grafic-trees.png" alt="Tre lila grafiska träd på en ljuslila kulle">
+
+			<div id="contactInfoFinishedBtn" class="purpleBtn contain">
+				<img src="/src/assets/arrow.png" alt="arrow to next page" class="btnText">
+			</div>
+		</section>
+
+		<section id="lastPage">
+			<img class="hero-img" src="./src/assets/trees-by-road.jpg" alt="Person looking at a halfway fallen pine tree in a forest">
+			<div class="firstPageText contain">
+				<h1>Tack!</h1>
+				<p>Din orosanmälan är mottagen.
+					Vi undersöker ärendet så fort det går och åtgärdar problemet vid behov.
+					Tack för att du hjälper oss att göra samhället mer säkert.</p>
+			</div>
+
+			<img src="/src/assets/OK-symbol.png" alt="En lila bocksymbol i en röd cirkel" class="ok-symbol">
+
+			<div class="infoBox">
+				<div class="infoContent">
+					<img src="./src/assets/Skogshuggare.png" alt="En bild på en man med långt hår och skägg, i svart mössa och rutig skjorta, hållandes i en yxa lutad över sin axel." class="lumberjack-img">
+						<div class="infoText">
+							<p>
+								Med hjälp av allmänhetens tips lokaliserar vi hundratals riskträd varje år, och räddar potentiellt människoliv samt reducerar materiella skador.						</p>
+							<p>Petter Amiri,
+								arborist hos MSB
+							</p>
+						</div>
+				</div>
+			</div>
+
+			<div id="backToStartBtn" class="nextBtn contain"><a href="#" class="btnText">Tillbaks till startsidan</a></div>
+
+		</section>
+	</main>
+	<script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

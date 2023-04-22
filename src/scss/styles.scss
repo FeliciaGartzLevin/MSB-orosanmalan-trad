@@ -1,0 +1,46 @@
+@import './variables';
+@import './header/navbar';
+@import './header/orientation-bar';
+@import './main/first-page/firstpage';
+@import './main/localisation/localisation-page';
+@import './main/purpleBtn';
+@import './main/fill-info/fill-info.scss';
+@import './main/forms.scss';
+@import './main/contact/kontaktuppgifter.scss';
+@import './main/MSBs-linjer.scss';
+@import './main/lastpage/lastPage.scss';
+@import './main/infoBox.scss';
+
+
+html,
+body {
+	font-family: 'Poppins';
+	margin: 0;
+	padding: 0;
+
+}
+
+a:link,
+a:hover,
+a:visited,
+a:active {
+	text-decoration: none;
+	cursor: pointer;
+	color: black;
+}
+
+// .contain {
+// 	margin: 0 1rem;
+// }
+
+section {
+	margin-bottom: 1.5em;
+}
+
+// #firstPage,
+#localisation,
+#fill-info,
+#kontaktuppgifter,
+#lastPage {
+	display: none;
+}
