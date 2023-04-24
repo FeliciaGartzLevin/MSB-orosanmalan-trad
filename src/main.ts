@@ -9,6 +9,7 @@ const startBtn = document.querySelector('#startBtn') as HTMLDivElement
 const locationFinishedBtn = document.querySelector('#locationFinishedBtn') as HTMLDivElement
 const fillInfoFinishedBtn = document.querySelector('#fillInfoFinishedBtn') as HTMLDivElement
 const contactInfoFinishedBtn = document.querySelector('#contactInfoFinishedBtn') as HTMLDivElement
+const backToStartBtn = document.querySelector('#backToStartBtn') as HTMLDivElement
 
 // pages
 const firstPage = document.querySelector('#firstPage') as HTMLElement
@@ -45,4 +46,10 @@ contactInfoFinishedBtn.addEventListener('click', () => {
 
 	kontaktuppgifter.style.display = "none"
 	lastPage.style.display = "flex"
+})
+
+backToStartBtn.addEventListener('click', () => {
+
+	lastPage.style.display = "none"
+	firstPage.style.display = "flex"
 })
