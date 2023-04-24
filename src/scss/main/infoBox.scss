@@ -31,7 +31,7 @@
 				// bottom: -3.8em;
 				// float: right;
 
-				align-self: end;
+				// align-self: end;
 				width: auto;
 				height: 10em;
 				margin-bottom: -0.7em;
@@ -47,9 +47,17 @@
 
 #firstPage {
 
-	& .infoContent {
+	& .infoContent.lady {
 		padding-left: 0.6em;
 
+		& .infoText {
+			display: inline;
+
+		}
+
+		& img.lady-img {
+			float: right;
+		}
 	}
 }
 
