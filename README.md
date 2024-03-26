@@ -29,4 +29,4 @@ Ni ska även skicka med er hemsida antigen som en ZIP eller en live länk.
 Angående länkar så behöver de länkar som går till externa sidor inte vara aktiva/funka. Men att själva hemsidan, våran one-pager ska vara fungerande, så att vi kan navigera och använda vår sida iallafall.
 
 ## Deployad uppgift (endast anpassad till mobila skärmar).
-https://main--skoluppgift-msb-orosanmalan.netlify.app/
+https://main--skoluppgift-msb-orosanmalan.netlify.app/{:target="blank"}
