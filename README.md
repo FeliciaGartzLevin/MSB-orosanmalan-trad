@@ -10,19 +10,19 @@ Ni behöver inte ha brödtexter färdiga, men att rubriker måste vara på plats
 
  
 
-Krav för designen:
+### Krav för designen:
 
-Mobile first (ni kan göra desktop också om ni vill men det måste främst vara anpassat till mobil)
-Ni ska använda er av MSB:s grafiska profil
-Ni ska ha med minst 3 grafiska element (som görs i Illustrator)
-Ni ska ha med minst 3 ikoner (ni kan använda färdiga)
-Ni ska ha med minst 2 frilagda personer (ni kan använda foton från Unsplash eller liknande men även ta egna om ni vill, friläggningen ska ha gjorts i Photshop)
-Ni ska ha med fotografier (ni kan använda från Unsplash eller liknande men även ta egna om ni vill)
+- Mobile first (ni kan göra desktop också om ni vill men det måste främst vara anpassat till mobil)
+- Ni ska använda er av MSB:s grafiska profil
+- Ni ska ha med minst 3 grafiska element (som görs i Illustrator)
+- Ni ska ha med minst 3 ikoner (ni kan använda färdiga)
+- Ni ska ha med minst 2 frilagda personer (ni kan använda foton från Unsplash eller liknande men även ta egna om ni vill, friläggningen ska ha gjorts i Photshop)
+- Ni ska ha med fotografier (ni kan använda från Unsplash eller liknande men även ta egna om ni vill)
 
 Ni skickar alltså in er Figma länk med följande material:
-Lo-fi
-Wireframe
-Hi-fi wireframe
+- Lo-fi
+- Wireframe
+- Hi-fi wireframe
 
 Ni ska även skicka med er hemsida antigen som en ZIP eller en live länk.
 
